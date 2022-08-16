@@ -1,0 +1,43 @@
+{
+  "name": "vite-plugin-server-callback",
+  "version": "0.0.2",
+  "license": "MIT",
+  "author": "William Gu",
+  "keywords": [
+    "vite",
+    "vite-server",
+    "port",
+    "server"
+  ],
+  "description": "It is a plugin to get exact listened port on vite.",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "engines": {
+    "node": "^14.18.0 || >=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/William-Gu/vite-plugin-server-callback.git"
+  },
+  "bugs": {
+    "url": "https://github.com/William-Gu/vite-plugin-server-callback/issues"
+  },
+  "homepage": "https://github.com/William-Gu/vite-plugin-server-callback/blob/master/README.md",
+  "peerDependencies": {
+		"vite": "^2.8.6"
+  },
+  "dependencies": {
+		"vite": "^2.8.6"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+		"typescript": "^4.7.4"
+  }
+}
